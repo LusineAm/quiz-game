@@ -5,9 +5,9 @@
 }
 
 section {
-    width: 400px;
-    height: 500px;
-    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    margin: 100px auto;
 }
 
 .timer,
@@ -27,21 +27,11 @@ section {
     text-align: center;
     font-size: 26px;
 }
-
-.box {
-    width: 70px;
-    height: 70px;
-    border: 2px solid;
-    border-color: #fff;
-    position: absolute;
-}
-
 .board {
-    background-color: #333;
+    background: url(../img/back.jpeg);
     position: relative;
     color: #fff;
 }
-
 .question-box {
     background-color: #fff;
     color: #000;
@@ -61,6 +51,15 @@ section {
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    border: 2px solid;
+    margin: 2px;
+    border-color: #fff;
+    position: absolute;
 }
 
 .top-left {
@@ -94,6 +93,6 @@ section {
 
 .score {
     font-size: 26px;
-    padding: 20px;
+    padding: 50px;
     text-align: center;
 }
